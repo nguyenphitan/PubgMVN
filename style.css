@@ -789,17 +789,20 @@ header {
 
     /* item 2 */
     .threeItem2 {
+        height: 100%;
+        width: 100%;
         background: url(./images/m_s3_swiperbot.png) no-repeat;
         background-size: contain;
-        height: 46.702%;
+        bottom: -54%;
     }
 
     .solid6 {
-        width: 84%;
-        height: 64%;
+        width: 88%;
+        height: 70%;
         background: url(./images/m_s3_solid6.png) no-repeat;
         background-size: contain;
         left: 14%;
+        top: 16%;
     }
 
     .solid6 .solidItem {
