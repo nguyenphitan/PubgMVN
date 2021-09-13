@@ -296,10 +296,10 @@ header {
     top: 35%;
 }
 
-/* .solid1:hover, .solid2:hover, .solid3:hover, .solid4:hover,
+.solid1:hover, .solid2:hover, .solid3:hover, .solid4:hover,
 .solid5:hover, .solid6:hover {
     cursor: pointer;
-} */
+}
 
 .solid1 .solidItem {
     width: 50%;
@@ -752,6 +752,30 @@ header {
     .erangel {
         font-size: 3em;
     }
+    
+    /* onclick */
+    .onclickLeft {
+        width: 14%;
+        height: 10%;
+        position: absolute;
+        background: url(./images/tab_prev.png) no-repeat;
+        background-size: contain;
+        top: 44%;
+        left: 0;
+        z-index: 1;
+    }
+
+    .onclickRight {
+        width: 14%;
+        height: 10%;
+        position: absolute;
+        background: url(./images/tab_next.png) no-repeat;
+        background-size: contain;
+        top: 44%;
+        right: 0;
+        z-index: 1;
+    }
+
 
     /* item 1 */
     .threeItem1 {
@@ -759,7 +783,8 @@ header {
         height: 54%;
         background-size: 100%;
         top: 13%;
-        /* transform: ; */
+        transform: translateX(0);
+        transition: transform linear 0.2s;
     }
 
     .solid1 .solidItem {
