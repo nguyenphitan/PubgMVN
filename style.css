@@ -793,22 +793,27 @@ header {
         width: 100%;
         background: url(./images/m_s3_swiperbot.png) no-repeat;
         background-size: contain;
-        bottom: -54%;
+        background-position: bottom;
     }
 
     .solid6 {
-        width: 88%;
-        height: 70%;
+        width: 70%;
+        height: 22%;
         background: url(./images/m_s3_solid6.png) no-repeat;
         background-size: contain;
-        left: 14%;
-        top: 16%;
+        left: 16%;
+        bottom: 8%;
     }
 
     .solid6 .solidItem {
-        width: 50%;
-        height: 50%;
-        top: -34%;
+        width: 70%;
+        height: 100%;
+        top: -54%;
+    }
+
+    .solid6 .solidItem .bar {
+        bottom: 23%;
+        left: 10%;
     }
 
 
