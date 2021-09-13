@@ -1,0 +1,848 @@
+* {
+    /* font-family: 'Teko', sans-serif; */
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 600;
+    /* font-size: 16px; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    min-width: 320px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header */
+header {
+    display: flex;
+    height: 75px;
+    width: 100%;
+    background-color: #111821;
+}
+
+/* logo */
+.logo {
+    /* flex-grow: 1; */
+    display: flex;
+    width: 18%;
+    height: 100%;
+    padding-left: 0.612%;
+}
+
+.logo img {
+    width: 33.28%;
+    height: 122.672%;
+    margin-top: 2.174%;
+    z-index: 1;
+}
+
+.logo h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    padding: 5.788% 0 0 5.788%;
+    color: #feab02;
+}
+
+.logo h1 span {
+    font-size: 0.6624em;
+    color: #d7d7d6;
+    margin-top: -6.8%;
+}
+
+/* list */
+.listHeader {
+    width: 30%;
+    height: 100%;
+    margin-left: 1.4%;
+    display: flex;
+    align-items: center;
+}
+
+.listHeader .list {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.listHeader .list li {
+    width: 14%;
+    margin: auto;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.listHeader .list li span i {
+    color: #eaa300;
+    font-size: 0.8em;
+}
+
+
+/* download btn */
+.downloadButton {
+    background-color: #eaa300;
+    width: 13.0212%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 2.912%;
+}
+
+.downloadButton a {
+    color: black;
+    font-size: 1.25em;
+    position: relative;
+    top: 0;
+}
+
+
+
+/* Content */
+
+/* Page 1 */
+.contentPageOne {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.pageOne {
+    width: 100%;
+    height: 100%;
+    background: url(./images/bg_1.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+/* Slogan */
+.slogan {
+    position: absolute;
+    width: 62%;
+    height: 184px;
+    background-image: url(./images/slogan_vi.png);
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-size: 100% 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    top: 3.8%;
+    left: 20%;
+}
+
+/* Download-Wrap */
+.download-wrap {
+    width: 62%;
+    height: 82.4px;
+    position: absolute;
+    bottom: 44px;
+    margin: 0 20%;
+    display: flex;
+}
+
+.appstore, .chplay, .apk {
+    width: 28%;
+    height: 99%;
+    margin: 0 2%;
+}
+
+.appstore {
+    background: url(./images/downios.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.chplay {
+    background: url(./images/downgplay.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.apk {
+    background: url(./images/donwapk.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* Page 2 */
+.contentPageTwo {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.pageTwo {
+    width: 100%;
+    height: 100%;
+    background: url(./images/bg_2.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.videoPubg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.btn-play {
+    position: relative;
+    width: 10%;
+    height: 120px;
+    top: -59.4%;
+    left: 44%;
+}
+
+.click {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 118px;
+    height: 102px;
+}
+
+.click:hover {
+    cursor: pointer;
+}
+
+.runVideo {
+    display: none;
+}
+
+.videoNone {
+    width: 100%;
+    display: none;
+}
+
+.endVideoNone {
+    font-size: 2em;
+    display: none;
+}
+
+.endVideoNone:hover {
+    color: rgb(179, 16, 16);
+    cursor: pointer;
+}
+
+.backgroundVideoNone {
+    position: absolute;
+    top: -50vh;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+
+/* Page 3 */
+.contentPageThree {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.pageThree {
+    width: 100%;
+    height: 100%;
+    background: url(./images/bg_3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.erangel {
+    position: absolute;
+    top: 6%;
+    left: 4%;
+    font-size: 4em;
+    z-index: 1;
+    color: #00426c;
+}
+
+.threeItem1 .solidItem p, .threeItem2 .solidItem p {
+    color: #95e8dd;
+}
+
+.threeItem1 .solidItem p:hover, .threeItem2 .solidItem p:hover {
+    color: #fff;
+}
+
+/* item 1 */
+.threeItem1 {
+    width: 100%;
+    height: 100%;
+    background: url(./images/s3_swipertop.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    position: absolute;
+    top: 0;
+}
+
+/* Solid 1 */
+.solid1 {
+    width: 26%;
+    height: 30%;
+    background: url(./images/s3_solid1.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 35%;
+}
+
+/* .solid1:hover, .solid2:hover, .solid3:hover, .solid4:hover,
+.solid5:hover, .solid6:hover {
+    cursor: pointer;
+} */
+
+.solid1 .solidItem {
+    width: 50%;
+    height: 58%;
+}
+
+.solidItem {
+    position: absolute;
+    background: url(./images/famous1.png) no-repeat;
+    background-size: contain;
+    text-align: center;
+    bottom: 48%;
+    left: 28%;
+    /* display: none; */
+}
+
+.solidItem p {
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
+.bar {
+    width: 20px;
+    height: 20px;
+    background: url(./images/famous_bar.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+}
+
+/* Solid 2 */
+.solid2 {
+    width: 34%;
+    height: 36%;
+    position: absolute;
+    background: url(./images/s3_solid2.png) no-repeat;
+    background-size: contain;
+    top: 26.8%;
+    left: 21.88%;
+}
+
+.solid2 .solidItem {
+    width: 42%;
+    height: 49%;
+    position: absolute;
+    top: -16%;
+    left: 34%;
+}
+
+/* Solid 3 */
+.solid3 {
+    width: 22%;
+    height: 20%;
+    position: absolute;
+    background: url(./images/s3_solid3.png) no-repeat;
+    background-size: contain;
+    right: 26%;
+    top: 12%;
+}
+
+.solid3 .solidItem {
+    width: 60%;
+    height: 86%;
+}
+
+/* Solid 4 */
+.solid4 {
+    width: 26%;
+    height: 44%;
+    position: absolute;
+    background: url(./images/s3_solid4.png) no-repeat;
+    background-size: contain;
+    right: 2%;
+    top: 8.4%;
+}
+
+.solid4 .solidItem {
+    width: 50%;
+    height: 50%;
+    background: url(./images/famous3.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -14%;
+    left: 38%;
+}
+
+.solid4 .solidItem p {
+    position: absolute;
+    bottom: 24%;
+    left: 8%;
+}
+
+.solid4 .bar {
+    position: absolute;
+    top: 0;
+    left: 14%;
+}
+
+/* Solid 5 */
+.solid5 {
+    width: 26%;
+    height: 40%;
+    position: absolute;
+    background: url(./images/s3_solid5.png) no-repeat;
+    background-size: contain;
+    right: 28%;
+    bottom: 24%;
+}
+
+.solid5 .solidItem {
+    width: 48%;
+    height: 50%;
+    position: absolute;
+    top: -14%;
+}
+
+.solid5 .bar {
+    bottom: 12%;
+}
+
+
+/*  item 2 */
+
+.threeItem2 {
+    width: 100%;
+    height: calc(100vh - 67%);
+    background: url(./images/s3_swiperbot.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Solid 6 */
+.solid6 {
+    width: 28%;
+    height: 80%;
+    position: absolute;
+    background: url(./images/s3_solid6.png) no-repeat;
+    background-size: contain;
+    left: 30%;
+    bottom: 0;
+}
+
+.solid6 .solidItem {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: -48%;
+}
+
+.solid6 .solidItem p {
+    position: absolute;
+    top: 4%;
+    left: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------- */
+
+
+
+
+/* Responsive */
+
+/* Mobile And Tablet */
+.nav-bar-btn {
+    width: 5%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 30px;
+    display: none;
+}
+
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1;
+    animation: fadeIn linear 0.2s;
+}
+
+/* Nav */
+
+.nav-mobile {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    max-width: 100%;
+    background-color: rgba(0,0,0,0.85);
+    z-index: 1;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform linear 0.2s, opacity linear 0.2s;
+}
+
+.nav-mobile-list {
+    margin-top: 50px;
+}
+
+.nav-mobile-link {
+    color: #ffffff;
+    display: block;
+    padding: 8px 14px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.path {
+    border-top: 1px solid #413f3f;
+    margin: 5px 0;
+}
+
+.nav-mobile-close {
+    position: absolute;
+    font-size: 1.6em;
+    color: #ffffff;
+    top: 6px;
+    left: 6px;
+}
+
+/* input */
+.nav-input {
+    display: none;
+}
+
+.nav-input:checked ~ .nav-overlay {
+    display: block;
+}
+
+.nav-input:checked ~ .nav-mobile {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* All */
+
+@media (max-width: 63.9375em) {
+
+    /* Header */
+    header {
+        height: 60px;
+    }
+
+    .listHeader {
+        margin-left: 5%;
+    }
+
+    .logo {
+        width: 15%;
+    }
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo h1 {
+        display: none;
+    }
+
+    .downloadButton {
+        height: 60px;
+        width: 34%;
+        /* right: 0; */
+    }
+
+
+    /* Content */
+
+    /* Page 1 */
+    .contentPageOne {
+        height: calc(100vh - 60px);
+    }
+
+    .pageOne {
+        background: url(./images/m_bg_1.jpg) no-repeat;
+        background-size: 100%;
+        background-position: top 20% center;
+    }
+
+    .slogan {
+        width: 90%;
+        left: 5%;
+        background-size: 100%;
+    }
+
+    .download-wrap {
+        width: 90%;
+        margin: 0 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        bottom: 3%;
+    }
+
+    .appstore, .apk, .chplay{
+        width: 40%;
+        height: 60%;
+    }
+
+
+    /* Page 2 */
+    .pageTwo {
+        width: 100%;
+        height: 100%;
+        background: url(./images/m_bg_2.jpg) no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .btn-play {
+        width: 100%;
+        left: 0;
+    }
+
+    .btn-play .click {
+        width: 80px;
+        height: 80px;
+        left: 41%;
+    }
+
+    .btn-play img {
+        width: 100%;
+        height: auto;
+    }
+    
+    /* video */
+    .videoPubg {
+        display: none;
+    }
+
+    .runVideo:checked ~ .click {
+        display: none;
+    }
+
+    .runVideo:checked ~ .videoNone {
+        display: block;
+        animation: fadeIn linear 0.2s;
+        width: 100%;
+        position: absolute;
+        top: -160%;
+        z-index: 1;
+    }
+
+    .runVideo:checked ~ .endVideoNone {
+        display: block;
+    }
+
+    .endVideoNone {
+        position: absolute;
+        z-index: 2;
+        color: #ffffff;
+        top: -136%;
+        right: 2%;
+    }
+
+    .runVideo:checked ~ .backgroundVideoNone {
+        display: block;
+        animation: fadeIn linear 0.2s;
+    }
+
+
+
+
+
+
+
+    
+    /* ----------------------------------- */
+    /* Navbar */
+    .nav-bar-btn {
+        display: block;
+    }
+
+    .listHeader .list {
+        display: none;
+    }
+    
+}
+
+
+
+/* ----------------------------- */
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+
+    /* Page 2 */
+    .runVideo:checked ~ .videoNone {
+        top: -110%;
+    }
+
+
+    /* Page 3 */
+    .pageThree {
+        background: url(./images/m_bg_3.jpg) no-repeat;
+    }
+
+    .solid1 .solidItem, .solid2 .solidItem, .solid4 .solidItem,
+    .solid5 .solidItem, .solid3 .solidItem, .solid6 .solidItem {
+        width: 30%;
+        height: 60%;
+    }
+
+    .solid1 .solidItem p, .solid2 .solidItem p, .solid4 .solidItem p,
+    .solid5 .solidItem p, .solid3 .solidItem p, .solid6 .solidItem p {
+        font-size: 1em;
+    }
+
+    .solid1 .solidItem .bar, .solid2 .solidItem .bar, .solid4 .solidItem .bar,
+    .solid5 .solidItem .bar, .solid3 .solidItem .bar, .solid6 .solidItem .bar {
+        width: 10px;
+        height: 10px;
+    }
+    /* item 1 */
+
+    .contentPageThree {
+        overflow: hidden;
+    }
+
+    .erangel {
+        font-size: 3em;
+    }
+
+    /* item 1 */
+    .threeItem1 {
+        width: 200%;
+        height: 50%;
+        background-size: 100%;
+        top: 20%;
+    }
+
+    .solid1 .solidItem {
+        width: 60%;
+        height: 76%;
+    }
+
+    .solid2 .solidItem {
+        width: 60%;
+        height: 70%;
+    }
+
+    .solid3 .solidItem {
+        width: 68%;
+        height: 100%;
+    }
+
+    .solid4 .solidItem {
+        width: 64%;
+        height: 64%;
+    }
+
+    .solid5 .solidItem {
+        width: 60%;
+        height: 62%;
+    }
+
+
+    /* item 2 */
+    .threeItem2 {
+        background: url(./images/m_s3_swiperbot.png) no-repeat;
+        background-size: contain;
+        height: 46.702%;
+    }
+
+    .solid6 {
+        width: 84%;
+        height: 64%;
+        background: url(./images/m_s3_solid6.png) no-repeat;
+        background-size: contain;
+        left: 14%;
+    }
+
+    .solid6 .solidItem {
+        width: 50%;
+        height: 50%;
+        top: -34%;
+    }
+
+
+
+}
+
+
+
+
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .logo {
+        width: 8%;
+    }
+
+
+    /* content */
+    /* page 2 */
+    .pageTwo {
+        width: 100%;
+        height: 100%;
+        background: url(./images/bg_2.jpg) no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .btn-play {
+        width: 100%;
+        top: -50%;
+        left: 0;
+    }
+
+    .btn-play .click {
+        left: 44%;
+    }
+
+
+
+}
