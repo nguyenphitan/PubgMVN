@@ -758,7 +758,7 @@ header {
 
     .erangel {
         font-size: 3em;
-        top: 0;
+        top: 4%;
     }
     
     /* onclick */
@@ -788,42 +788,12 @@ header {
     /* item 1 */
     .threeItem1 {
         width: 200%;
-        height: 100%;
+        height: 55%;
         background-size: 100%;
-        top: -30%;
+        top: 12%;
         transform: translateX(0);
         transition: transform linear 0.2s;
     }
-
-    .solid1 {
-        height: 30%;
-        top: 64%;
-    }
-
-    .solid1 .solidItem .bar, .solid2 .solidItem .bar, .solid3 .solidItem .bar,
-    .solid5 .solidItem .bar {
-        top: 44%;
-    }
-
-    .solid2 {
-        width: 30%;
-        top: 60%;
-    }
-
-    .solid3 {
-        top: 50%;
-    }
-
-    .solid4 {
-        /* width: 30%; */
-        height: 40%;
-        top: 50%;
-    }
-
-    .solid5 {
-        top: 66%;
-    }
-
 
     .solid1 .solidItem {
         width: 60%;
@@ -837,21 +807,12 @@ header {
 
     .solid3 .solidItem {
         width: 68%;
-        height: 80%;
-    }
-
-    .solid3 .solidItem .bar {
-        top: 58%;
+        height: 100%;
     }
 
     .solid4 .solidItem {
-        top: 30%;
         width: 80%;
         height: 68%;
-    }
-
-    .solid4 .solidItem p {
-        bottom: 50%;
     }
 
     .solid5 .solidItem {
@@ -862,7 +823,7 @@ header {
 
     /* item 2 */
     .threeItem2 {
-        top: 8%;
+        top: 6%;
         height: 100%;
         width: 100%;
         background: url(./images/m_s3_swiperbot.png) no-repeat;
