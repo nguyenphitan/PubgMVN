@@ -751,6 +751,7 @@ header {
 
     .erangel {
         font-size: 3em;
+        top: 0;
     }
     
     /* onclick */
@@ -780,9 +781,9 @@ header {
     /* item 1 */
     .threeItem1 {
         width: 200%;
-        height: 54%;
+        height: 56%;
         background-size: 100%;
-        top: 13%;
+        top: 8%;
         transform: translateX(0);
         transition: transform linear 0.2s;
     }
