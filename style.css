@@ -756,9 +756,10 @@ header {
     /* item 1 */
     .threeItem1 {
         width: 200%;
-        height: 50%;
+        height: 54%;
         background-size: 100%;
-        top: 20%;
+        top: 13%;
+        /* transform: ; */
     }
 
     .solid1 .solidItem {
@@ -777,8 +778,8 @@ header {
     }
 
     .solid4 .solidItem {
-        width: 64%;
-        height: 64%;
+        width: 70%;
+        height: 70%;
     }
 
     .solid5 .solidItem {
@@ -802,7 +803,7 @@ header {
         background: url(./images/m_s3_solid6.png) no-repeat;
         background-size: contain;
         left: 16%;
-        bottom: 8%;
+        bottom: 10%;
     }
 
     .solid6 .solidItem {
