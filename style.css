@@ -811,8 +811,12 @@ header {
     }
 
     .solid4 .solidItem {
-        width: 80%;
-        height: 68%;
+        width: 70%;
+        height: 60%;
+    }
+
+    .solid4 .solidItem p {
+        bottom: 14%;
     }
 
     .solid5 .solidItem {
